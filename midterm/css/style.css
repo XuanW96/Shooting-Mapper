@@ -1,0 +1,301 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+
+p.main {
+  font-size: 24px;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    z-index:0
+}
+
+.sidebar {
+position: absolute;
+border-left: 12px solid #7C7878;
+display: inline;
+width: 430px;
+height: 320px;
+left: 0px;
+top: 105px;
+background:rgba(219, 219, 219, 0.63);
+mix-blend-mode: normal;
+z-index:1
+}
+
+#myCheck1{
+position: absolute;
+left: 60px;
+top: 140px;
+z-index:2
+}
+#checktext1{
+position: absolute;
+left: 83px;
+top: 140px;
+z-index:2
+
+}
+#myCheck2{
+position: absolute;
+left: 60px;
+top: 180px;
+z-index:2
+}
+#checktext2{
+position: absolute;
+left: 83px;
+top: 180px;
+z-index:2
+
+}
+#myCheck3{
+position: absolute;
+left: 60px;
+top: 220px;
+z-index:2
+}
+#checktext3{
+position: absolute;
+left: 83px;
+top: 220px;
+z-index:2
+}
+#title{
+  position: absolute;
+  left: 70px;
+  top: 20px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: normal;
+  color: #000000;
+}
+
+#intro1{
+  position:absolute;
+  left: 50px;
+  top: 80px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  color: #000000;
+}
+#name{
+  position:absolute;
+  left:20px;
+  bottom: 5px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: normal;
+  color: #000000;
+}
+#next1{
+position: absolute;
+left: 350px;
+top: 260px;
+z-index:2
+}
+
+#title2{
+  position: absolute;
+  left:120px;
+  top: 40px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: normal;
+  color: #000000;
+}
+#intro2{
+  position:absolute;
+  left:70px;
+  top: 90px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  color: #000000;
+}
+#next2{
+position: absolute;
+left: 350px;
+top: 260px;
+z-index:2
+}
+#previous1{
+position: absolute;
+left: 250px;
+top: 260px;
+z-index:2
+}
+#myCheck4{
+position: absolute;
+left: 100px;
+top: 160px;
+z-index:2
+}
+#checktext4{
+position: absolute;
+left:120px;
+top: 160px;
+z-index:2
+}
+#myCheck5{
+position: absolute;
+left: 180px;
+top: 160px;
+z-index:2
+}
+#checktext5{
+position: absolute;
+left:200px;
+top: 160px;
+z-index:2
+}
+#title3{
+  position: absolute;
+  left:120px;
+  top: 40px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: normal;
+  color: #000000;
+}
+#intro3{
+  position:absolute;
+  left:50px;
+  top: 90px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  color: #000000;
+}
+#next3{
+position: absolute;
+left: 350px;
+top: 260px;
+z-index:2
+}
+#previous2{
+position: absolute;
+left: 250px;
+top: 260px;
+z-index:2
+}
+#sel2{
+position: absolute;
+left: 180px;
+top: 160px;
+z-index:2
+}
+#sel2text{
+position: absolute;
+left:120px;
+top: 162px;
+z-index:2
+}
+#sel1{
+position: absolute;
+left: 180px;
+top: 200px;
+z-index:2
+}
+#sel1text{
+position: absolute;
+left: 120px;
+top: 202px;
+z-index:2
+}
+#title4{
+  position: absolute;
+  left:120px;
+  top: 40px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: normal;
+  color: #000000;
+}
+#intro4{
+  position:absolute;
+  left:50px;
+  top: 90px;
+  font-family: Biryani;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  color: #000000;
+}
+
+#previous3{
+position: absolute;
+left: 320px;
+top: 260px;
+z-index:2
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  z-index:2
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  left: 100px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  z-index:2
+}
+
+.slider::-moz-range-thumb {
+    left: 100px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  z-index:2
+}
+#age{
+  position:absolute;
+  left:50px;
+  top: 180px;
+}
+#myRange{
+  position:absolute;
+  left:50px;
+  top: 150px;
+}
