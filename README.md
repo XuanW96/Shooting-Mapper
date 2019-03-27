@@ -1,2 +1,4 @@
 # Shooting-Mapper-
-Zixuan WANG midterm project for MUSA 611
+Zixuan WANG web application project for MUSA 611
+ 
+See the outcome(screenshot) images in the images folder.
